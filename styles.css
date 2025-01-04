@@ -10,11 +10,14 @@ body {
   background-color: hsl(0, 0%, 8%);
   font-family: inter;
   font-size: 1.4rem;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
 }
 main {
   max-width: 38rem;
-  height: 61rem;
-  margin: 2.6rem auto;
+/*   height: 61rem;
+  margin: 2.6rem auto; */
   border-radius: 15px;
   color: hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 12%);
